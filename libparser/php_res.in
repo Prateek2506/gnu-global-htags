@@ -1,0 +1,115 @@
+;; Process this file with reserved.pl to create gperf source.
+;
+; Copyright (c) 2003 Tama Communications Corporation
+;
+; This file is free software; as a special exception the author gives
+; unlimited permission to copy and/or distribute it, with or without
+; modifications, as long as this notice is preserved.
+;
+; This program is distributed in the hope that it will be useful, but
+; WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+; implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+;
+; PHP reserved word list.
+;
+__CLASS__		word
+__DIR__			word
+__FILE__		word
+__FUNCTION__		word
+__LINE__		word
+__METHOD__		word
+__NAMESPACE__		word
+__TRAIT__		word
+abstract,ABSTRACT,Abstract				word
+and,AND,And						word
+array,ARRAY,Array					word
+as,AS,As						word
+break,BREAK,Break					word
+callable,CALLABLE,Callable				word
+case,CASE,Case						word
+catch,CATCH,Catch					word
+cfunction,CFUNCTION,Cfunction,CFunction			word
+class,CLASS,Class					word
+clone,CLONE,Clone					word
+const,CONST,Const					word
+continue,CONTINUE,Continue				word
+declare,DECLARE,Declare					word
+default,DEFAULT,Default					word
+define,DEFINE,Define					word
+die,DIE,Die						word
+do,DO,Do						word
+each,EACH,Each						word
+echo,ECHO,Echo						word
+else,ELSE,Else						word
+elseif,ELSEIF,Elseif,ElseIf				word
+empty,EMPTY,Empty					word
+enddeclare,ENDDECLARE,Enddeclare,EndDeclare		word
+endfor,ENDFOR,Endfor,EndFor				word
+endforeach,ENDFOREACH,Endforeach,EndForeach		word
+endif,ENDIF,Endif,EndIf					word
+endswitch,ENDSWITCH,Endswitch,EndSwitch			word
+endwhile,ENDWHILE,Endwhile,EndWhile			word
+eval,EVAL,Eval						word
+exit,EXIT,Exit						word
+extends,EXTENDS,Extends					word
+false,FALSE,False					word
+final,FINAL,Final					word
+finally,FINALLY,Finally					word
+for,FOR,For						word
+foreach,FOREACH,Foreach,ForEach				word
+function,FUNCTION,Function				word
+global,GLOBAL,Global					word
+goto,GOTO,Goto						word
+if,IF,If						word
+implements,IMPLEMENTS,Implements			word
+include,INCLUDE,Include					word
+include_once,INCLUDE_ONCE,Include_once,Include_Once	word
+instanceof,INSTANCEOF,Instanceof,InstanceOf		word
+insteadof,INSTEADOF,Insteadof,InsteadOf			word
+interface,INTERFACE,Interface				word
+isset,ISSET,Isset					word
+list,LIST,List						word
+namespace,NAMESPACE,Namespace				word
+new,NEW,New						word
+old_function,OLD_FUNCTION,Old_function,Old_Function	word
+or,OR,Or						word
+print,PRINT,Print					word
+private,PRIVATE,Private					word
+protected,PROTECTED,Protected				word
+public,PUBLIC,Public					word
+require,REQUIRE,Require					word
+require_once,REQUIRE_ONCE,Require_once,Require_Once	word
+return,RETURN,Return					word
+static,STATIC,Static					word
+switch,SWITCH,Switch					word
+throw,THROW,Throw					word
+trait,TRAIT,Trait					word
+try,TRY,Try						word
+true,TRUE,True						word
+unset,UNSET,Unset					word
+use,USE,Use						word
+var,VAR,Var						word
+while,WHILE,While					word
+xor,XOR,Xor						word
+yield,YIELD,Yield					word
+
+;
+; PHP reserved variable list.
+;
+GLOBALS			variable
+HTTP_COOKIE_VARS	variable
+HTTP_ENV_VARS		variable
+HTTP_GET_VARS		variable
+HTTP_POST_FILES		variable
+HTTP_POST_VARS		variable
+HTTP_SERVER_VARS	variable
+HTTP_SESSION_VARS	variable
+_COOKIE			variable
+_ENV			variable
+_FILES			variable
+_GET			variable
+_POST			variable
+_REQUEST		variable
+_SERVER			variable
+_SESSION		variable
